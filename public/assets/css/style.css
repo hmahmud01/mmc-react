@@ -1863,3 +1863,26 @@ ul.navbar-left a > i {
 .q-block{
   margin: 10px 2px;
 }
+
+.m-r-z{
+  margin-right:0px;
+}
+
+.cand-cont-row{
+  margin-right:0;
+  margin-left: 0;
+  padding: 0 15px;
+}
+
+.f-right{
+  float: right;
+}
+
+.m-10{
+  margin-top:10px
+}
+
+.share-link {
+  margin-top:20px; 
+  margin-bottom:10px;
+}

@@ -1,9 +1,16 @@
 import React from 'react';
+import TeamBLock from './TeamBlock';
+
 
 class Teams extends React.Component {
     render() {
         return(
-        <h1>team</h1>
+            <div className="row m-r-z">     
+                <TeamBLock />
+                <TeamBLock />
+                <TeamBLock />
+                <TeamBLock />
+            </div>        
         )
     } 
 }
