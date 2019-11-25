@@ -1,5 +1,7 @@
 import React from 'react';
 
+import {Link} from 'react-router-dom';
+
 import user1 from './assets/1.png';
 import user2 from './assets/2.png';
 import user3 from './assets/3.png';
@@ -31,8 +33,9 @@ class TeamBlock extends React.Component {
                     <div className="jobs-bottom dropdown">
                         <div className="user-side">
                             <p>JOBS: 12</p>
-                        </div>                        
-                        <a className="btn btn-sm btn-info" href="team-members.html">Members</a>
+                        </div>                     
+                        <Link to="/members" className="btn btn-sm btn-info">Members</Link>
+                        {/* <a className="btn btn-sm btn-info" href="team-members.html">Members</a> */}
                     </div>
                 </div>
             </div>

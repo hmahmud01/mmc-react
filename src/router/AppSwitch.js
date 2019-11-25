@@ -4,7 +4,9 @@ import {Switch, Route} from "react-router-dom";
 import Candidates from '../components/Candidates';
 import Home from '../components/Home';
 import Jobs from '../components/Jobs';
+import JobDetail from '../components/Jobs/JobDetail';
 import Teams from '../components/Teams';
+import Members from '../components/Teams/Members';
 
 class AppSwitch extends React.Component {
     render(){
@@ -19,9 +21,15 @@ class AppSwitch extends React.Component {
                 <Route path="/teams">
                     <Teams />
                 </Route>
+                <Route path="/members">
+                    <Members />
+                </Route>
+                <Route path="/detail">
+                    <JobDetail />
+                </Route>       
                 <Route path="/">
                     <Home />
-                </Route>
+                </Route>         
             </Switch>
         )
     }

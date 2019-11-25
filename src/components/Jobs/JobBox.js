@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 
 import user1 from './assets/1.png';
 import user2 from './assets/2.png';
@@ -14,7 +15,8 @@ class JobBox extends React.Component {
             <div class="jobs-single-box">
                 <div class="jobs-top">
                     <div class="j-left">
-                        <a href="individual-job-details.html"><h5 class="jobs-title color-bold font-bold">Business Development Executive<span class="color-normal">Business Development</span></h5></a>
+                        <Link to="/detail"><h5 class="jobs-title color-bold font-bold">Business Development Executive<span class="color-normal">Business Development</span></h5></Link>
+                        {/* <a href="individual-job-details.html"><h5 class="jobs-title color-bold font-bold">Business Development Executive<span class="color-normal">Business Development</span></h5></a> */}
                         <h5 class="jobs-active-day pos-relative">Active: 22 Days</h5>
                     </div>
                     <div class="j-right">
