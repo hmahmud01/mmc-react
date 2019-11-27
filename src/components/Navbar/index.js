@@ -17,9 +17,9 @@ class Navbar extends React.Component {
 
                     <ul className="navbar-nav ml-auto navbar-left">
                         <li className="nav-item">
-                            <a className="nav-link" href="job-details.html">
+                            <Link to="/create-job" className="nav-link">
                                 <i className="fas fa-plus"></i>CREATE
-                            </a>
+                            </Link>
                         </li>
                         <form className="form-inline">
                             <input className="form-control" type="search" placeholder="Search" aria-label="Search" />

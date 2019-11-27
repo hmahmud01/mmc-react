@@ -7,6 +7,7 @@ import Jobs from '../components/Jobs';
 import JobDetail from '../components/Jobs/JobDetail';
 import Teams from '../components/Teams';
 import Members from '../components/Teams/Members';
+import CreateJob from '../components/CreateJob';
 
 class AppSwitch extends React.Component {
     render(){
@@ -26,6 +27,9 @@ class AppSwitch extends React.Component {
                 </Route>
                 <Route path="/detail">
                     <JobDetail />
+                </Route>       
+                <Route path="/create-job">
+                    <CreateJob />
                 </Route>       
                 <Route path="/">
                     <Home />

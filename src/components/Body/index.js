@@ -9,11 +9,9 @@ class Body extends React.Component {
         return(
             <section class="main-body-area">
                 <div class="container-fluid">
-                    <div class="row">
-                        <Router>    
-                            <SideBar />
-                            <Main />
-                        </Router>
+                    <div class="row">                        
+                        <SideBar />
+                        <Main />                        
                     </div>
                 </div>
             </section>
