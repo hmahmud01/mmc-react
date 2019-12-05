@@ -7,14 +7,17 @@ const icoFont = {
 }
 
 class PersonTile extends React.Component {
+    constructor(props){
+        super(props);
+    }
     render(){
         return(
             <div class="jobs-single-box candidate-list">
                 <div class="jobs-top shadow team-member-border">
                     <div class="j-left">
-                        <img class="candidate-img" src={user1} alt="user" />
+                        <img class="candidate-img" src={this.props.image} alt="user" />
                         <div class="candidate-name">
-                            <h5 class="jobs-title color-bold font-bold">Mahtasim Rahman<span class="color-normal">Back End Developer <i class="fa fa-circle" style={icoFont} aria-hidden="true"></i> Company Name</span></h5>
+                            <h5 class="jobs-title color-bold font-bold">{this.props.name}<span class="color-normal">{this.props.designation} <i class="fa fa-circle" style={icoFont} aria-hidden="true"></i> {this.props.company}</span></h5>
                         </div>
                     </div>
                     <div class="j-right">

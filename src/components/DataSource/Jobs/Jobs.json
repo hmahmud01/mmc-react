@@ -1,0 +1,163 @@
+{
+	"jobs": [{
+		"all": [{
+			"id": 1,
+			"title": "something",
+			"subtitle": "subsomething",
+			"status": [{
+					"key": "Applied",
+					"value": 84
+				},
+				{
+					"key": "Not Review",
+					"value": 14
+				},
+				{
+					"key": "passed",
+					"value": 3
+				},
+				{
+					"key": "tagged",
+					"value": 2
+				},
+				{
+					"key": "rejected",
+					"value": 9
+				}
+			],
+			"active": "3 Days Ago"
+		}, {
+			"id": 2,
+			"title": "Happening now",
+			"subtitle": "sub inspector",
+			"status": [{
+					"key": "Applied",
+					"value": 84
+				},
+				{
+					"key": "Not Review",
+					"value": 14
+				},
+				{
+					"key": "passed",
+					"value": 3
+				},
+				{
+					"key": "tagged",
+					"value": 2
+				},
+				{
+					"key": "rejected",
+					"value": 9
+				}
+			],
+			"active": "4 Days Ago"
+		}, {
+			"id": 3,
+			"title": "Not Now",
+			"subtitle": "Joshim",
+			"status": [{
+					"key": "Applied",
+					"value": 84
+				},
+				{
+					"key": "Not Review",
+					"value": 14
+				},
+				{
+					"key": "passed",
+					"value": 3
+				},
+				{
+					"key": "tagged",
+					"value": 2
+				},
+				{
+					"key": "rejected",
+					"value": 9
+				}
+			],
+			"active": "5 Days Ago"
+		}],
+		"active": [{
+			"id": 3,
+			"title": "Not Now",
+			"subtitle": "Joshim",
+			"status": [{
+					"key": "Applied",
+					"value": 84
+				},
+				{
+					"key": "Not Review",
+					"value": 14
+				},
+				{
+					"key": "passed",
+					"value": 3
+				},
+				{
+					"key": "tagged",
+					"value": 2
+				},
+				{
+					"key": "rejected",
+					"value": 9
+				}
+			],
+			"active": "5 Days Ago"
+		}],
+		"archieve": [{
+			"id": 1,
+			"title": "something",
+			"subtitle": "subsomething",
+			"status": [{
+					"key": "Applied",
+					"value": 84
+				},
+				{
+					"key": "Not Review",
+					"value": 14
+				},
+				{
+					"key": "passed",
+					"value": 3
+				},
+				{
+					"key": "tagged",
+					"value": 2
+				},
+				{
+					"key": "rejected",
+					"value": 9
+				}
+			],
+			"active": "3 Days Ago"
+		}, {
+			"id": 2,
+			"title": "Happening now",
+			"subtitle": "sub inspector",
+			"status": [{
+					"key": "Applied",
+					"value": 84
+				},
+				{
+					"key": "Not Review",
+					"value": 14
+				},
+				{
+					"key": "passed",
+					"value": 3
+				},
+				{
+					"key": "tagged",
+					"value": 2
+				},
+				{
+					"key": "rejected",
+					"value": 9
+				}
+			],
+			"active": "4 Days Ago"
+		}]
+	}]
+}

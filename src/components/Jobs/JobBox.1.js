@@ -1,7 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 
-import JobStatus from './JobStatus';
 import user1 from './assets/1.png';
 import user2 from './assets/2.png';
 import user3 from './assets/3.png';
@@ -15,17 +14,13 @@ class JobBox extends React.Component {
         super(props);
     }
     render(){
-        console.log(this.props.status);
-        var jobStatus = this.props.status.map(function(item){
-            return <JobStatus title={item.key} num={item.value} />
-        });
         return(
             <div class="jobs-single-box">
                 <div class="jobs-top">
                     <div class="j-left">
-                        <Link to="/detail"><h5 class="jobs-title color-bold font-bold">{this.props.title}<span class="color-normal">{this.props.subtitle}</span></h5></Link>
+                        <Link to="/detail"><h5 class="jobs-title color-bold font-bold">Business Development Executive<span class="color-normal">Business Development</span></h5></Link>
                         {/* <a href="individual-job-details.html"><h5 class="jobs-title color-bold font-bold">Business Development Executive<span class="color-normal">Business Development</span></h5></a> */}
-                        <h5 class="jobs-active-day pos-relative">Active: {this.props.active}</h5>
+                        <h5 class="jobs-active-day pos-relative">Active: 22 Days</h5>
                     </div>
                     <div class="j-right">
                         <a href="" class="share" data-toggle="modal" data-target="#shareLink"><i class="fas fa-share-alt"></i></a>
@@ -42,8 +37,7 @@ class JobBox extends React.Component {
                     </div>
                 </div>
                 <div class="jobs-middle">
-                    {jobStatus}
-                    {/* <div class="j-m-box">
+                    <div class="j-m-box">
                         <h5><img src={user1} alt="User" />Applied</h5>
                         <h2>84</h2>
                     </div>
@@ -62,7 +56,7 @@ class JobBox extends React.Component {
                     <div class="j-m-box">
                         <h5><img src={user5} alt="User" />rejected</h5>
                         <h2>16</h2>
-                    </div> */}
+                    </div>
                 </div>
                 <div class="jobs-bottom dropdown">
                     <div class="user-side">

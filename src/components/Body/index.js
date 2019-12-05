@@ -11,7 +11,7 @@ class Body extends React.Component {
                 <div class="container-fluid">
                     <div class="row">                        
                         <SideBar />
-                        <Main />                        
+                        <Main />                          
                     </div>
                 </div>
             </section>

@@ -1,41 +1,51 @@
 import React from 'react';
 
 import {Link} from 'react-router-dom';
-
-import user1 from './assets/1.png';
-import user2 from './assets/2.png';
-import user3 from './assets/3.png';
+import Collaborator from './Collaborator';
 
 class TeamBlock extends React.Component {
-    render(){
+    constructor(props){
+        super(props);
+    }
+    render(){        
+        var membersURL = "/members/".concat(this.props.id);
+        console.log(membersURL);
+        var collaborator = this.props.collab.map(function(item){
+            return <Collaborator collab={item} />
+        })
         return(
             <div className="col-sm-4 team-content">
                 <div className="team-block shadow">
                     <div className="jobs-top">
                         <div className="j-left">
-                            <h4 className="">Team name</h4>                             
+                            <h4 className="">{this.props.name}</h4>                             
                         </div>
                     </div>
                     <hr />
                     <div className="">
                         <div className="user-side">
-                            <img className="team-photo" src={user1} alt="user" />
-                            <img className="team-photo" src={user2} alt="user" />
-                            <img className="team-photo" src={user3} alt="user" />
+                            {collaborator}                            
                         </div>
                         <br />
                         <h5>About</h5>
-                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has. </p>
+                        <p>{this.props.about}</p>
                         <br />
-                        <p>Organization: Organization Name</p>
+                        <p>Organization: {this.props.orgName}</p>
                     </div>
                     <hr />
                     <div className="jobs-bottom dropdown">
                         <div className="user-side">
-                            <p>JOBS: 12</p>
-                        </div>                     
-                        <Link to="/members" className="btn btn-sm btn-info">Members</Link>
-                        {/* <a className="btn btn-sm btn-info" href="team-members.html">Members</a> */}
+                            <p>JOBS: {this.props.jobs}</p>
+                        </div>                              
+                        <Link to={membersURL} className="btn btn-sm btn-info">Members</Link>
+                        {/* <Link 
+                            to={{
+                                pathname: '/members',
+                                state: {
+                                    id: "12"
+                                }
+                            }}
+                            className="btn btn-sm btn-info">Members</Link>                         */}
                     </div>
                 </div>
             </div>

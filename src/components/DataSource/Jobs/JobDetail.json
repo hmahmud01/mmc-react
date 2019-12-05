@@ -1,0 +1,108 @@
+{
+	"applied": [{
+			"img": "url",
+			"name": "Shah Sufian Mahmud",
+			"designation": "Software Engineer @Soft Tech",
+			"rank": 4.3
+		},
+		{
+			"img": "url",
+			"name": "Shah Sufian Mahmud",
+			"designation": "Software Engineer @Soft Tech",
+			"rank": 4.3
+		},
+		{
+			"img": "url",
+			"name": "Shah Sufian Mahmud",
+			"designation": "Software Engineer @Soft Tech",
+			"rank": 4.3
+		},
+		{
+			"img": "url",
+			"name": "Shah Sufian Mahmud",
+			"designation": "Software Engineer @Soft Tech",
+			"rank": 4.3
+		},
+		{
+			"img": "url",
+			"name": "Shah Sufian Mahmud",
+			"designation": "Software Engineer @Soft Tech",
+			"rank": 4.3
+		},
+		{
+			"img": "url",
+			"name": "Shah Sufian Mahmud",
+			"designation": "Software Engineer @Soft Tech",
+			"rank": 4.3
+		},
+		{
+			"img": "url",
+			"name": "Shah Sufian Mahmud",
+			"designation": "Software Engineer @Soft Tech",
+			"rank": 4.3
+		}
+	],
+	"notReviewd": [{
+			"img": "url",
+			"name": "Shah Sufian Mahmud",
+			"designation": "Software Engineer @Soft Tech",
+			"rank": 4.3
+		},
+		{
+			"img": "url",
+			"name": "Shah Sufian Mahmud",
+			"designation": "Software Engineer @Soft Tech",
+			"rank": 4.3
+		},
+		{
+			"img": "url",
+			"name": "Shah Sufian Mahmud",
+			"designation": "Software Engineer @Soft Tech",
+			"rank": 4.3
+		}
+	],
+	"passed": [{
+			"img": "url",
+			"name": "Shah Sufian Mahmud",
+			"designation": "Software Engineer @Soft Tech",
+			"rank": 4.3
+		},
+		{
+			"img": "url",
+			"name": "Shah Sufian Mahmud",
+			"designation": "Software Engineer @Soft Tech",
+			"rank": 4.3
+		},
+		{
+			"img": "url",
+			"name": "Shah Sufian Mahmud",
+			"designation": "Software Engineer @Soft Tech",
+			"rank": 4.3
+		},
+		{
+			"img": "url",
+			"name": "Shah Sufian Mahmud",
+			"designation": "Software Engineer @Soft Tech",
+			"rank": 4.3
+		}
+	],
+	"tagged": [{
+		"img": "url",
+		"name": "Shah Sufian Mahmud",
+		"designation": "Software Engineer @Soft Tech",
+		"rank": 4.3
+	}],
+	"rejected": [{
+			"img": "url",
+			"name": "Shah Sufian Mahmud",
+			"designation": "Software Engineer @Soft Tech",
+			"rank": 4.3
+		},
+		{
+			"img": "url",
+			"name": "Shah Sufian Mahmud",
+			"designation": "Software Engineer @Soft Tech",
+			"rank": 4.3
+		}
+	]
+}

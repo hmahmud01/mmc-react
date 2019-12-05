@@ -7,6 +7,127 @@ import Tagged from './DetailComponents/Tagged';
 import Rejected from './DetailComponents/Rejected';
 
 class JobDetail extends React.Component{
+    constructor(props){
+        super(props);
+        this.state={
+            data: {
+                applied: [
+                    {
+                        img: "url",
+                        name: "Shah Sufian Mahmud",
+                        designation: "Software Engineer @Soft Tech",
+                        rank: 4.3
+                    },
+                    {
+                        img: "url",
+                        name: "Shah Sufian Mahmud",
+                        designation: "Software Engineer @Soft Tech",
+                        rank: 4.3
+                    },
+                    {
+                        img: "url",
+                        name: "Shah Sufian Mahmud",
+                        designation: "Software Engineer @Soft Tech",
+                        rank: 4.3
+                    },
+                    {
+                        img: "url",
+                        name: "Shah Sufian Mahmud",
+                        designation: "Software Engineer @Soft Tech",
+                        rank: 4.3
+                    },
+                    {
+                        img: "url",
+                        name: "Shah Sufian Mahmud",
+                        designation: "Software Engineer @Soft Tech",
+                        rank: 4.3
+                    },
+                    {
+                        img: "url",
+                        name: "Shah Sufian Mahmud",
+                        designation: "Software Engineer @Soft Tech",
+                        rank: 4.3
+                    },
+                    {
+                        img: "url",
+                        name: "Shah Sufian Mahmud",
+                        designation: "Software Engineer @Soft Tech",
+                        rank: 4.3
+                    }
+                ],
+                notReviewd: [
+                    {
+                        img: "url",
+                        name: "Shah Sufian Mahmud",
+                        designation: "Software Engineer @Soft Tech",
+                        rank: 4.3
+                    },
+                    {
+                        img: "url",
+                        name: "Shah Sufian Mahmud",
+                        designation: "Software Engineer @Soft Tech",
+                        rank: 4.3
+                    },
+                    {
+                        img: "url",
+                        name: "Shah Sufian Mahmud",
+                        designation: "Software Engineer @Soft Tech",
+                        rank: 4.3
+                    }
+                ],
+                passed: [
+                    {
+                        img: "url",
+                        name: "Shah Sufian Mahmud",
+                        designation: "Software Engineer @Soft Tech",
+                        rank: 4.3
+                    },
+                    {
+                        img: "url",
+                        name: "Shah Sufian Mahmud",
+                        designation: "Software Engineer @Soft Tech",
+                        rank: 4.3
+                    },
+                    {
+                        img: "url",
+                        name: "Shah Sufian Mahmud",
+                        designation: "Software Engineer @Soft Tech",
+                        rank: 4.3
+                    },
+                    {
+                        img: "url",
+                        name: "Shah Sufian Mahmud",
+                        designation: "Software Engineer @Soft Tech",
+                        rank: 4.3
+                    }
+                ],
+                tagged: [
+                    {
+                        img: "url",
+                        name: "Shah Sufian Mahmud",
+                        designation: "Software Engineer @Soft Tech",
+                        rank: 4.3
+                    }
+                ],
+                rejected: [
+                    {
+                        img: "url",
+                        name: "Shah Sufian Mahmud",
+                        designation: "Software Engineer @Soft Tech",
+                        rank: 4.3
+                    },
+                    {
+                        img: "url",
+                        name: "Shah Sufian Mahmud",
+                        designation: "Software Engineer @Soft Tech",
+                        rank: 4.3
+                    }
+                ]
+            }
+
+        }
+    }
+
     render(){
         return(
             <div class="individual-job-details-area">
@@ -64,11 +185,11 @@ class JobDetail extends React.Component{
                         </div>
 
                         <div class="individual-all-cat-wrap">
-                            <Applied />
-                            <NotReviewd />
-                            <Passed />
-                            <Tagged />
-                            <Rejected />                            
+                            <Applied data={this.state.data.applied}/>
+                            <NotReviewd data={this.state.data.notReviewd}/>s
+                            <Passed data={this.state.data.passed}/>
+                            <Tagged data={this.state.data.tagged}/>
+                            <Rejected data={this.state.data.rejected}/>                            
                         </div>
 
                     </div>

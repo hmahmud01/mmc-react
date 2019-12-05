@@ -22,7 +22,7 @@ class AppSwitch extends React.Component {
                 <Route path="/teams">
                     <Teams />
                 </Route>
-                <Route path="/members">
+                <Route path="/members/:id">
                     <Members />
                 </Route>
                 <Route path="/detail">
